@@ -1,4 +1,4 @@
-# Activity 10: CIS Major Progress Tracker 💻
+# Activity 10: CIS Major Progress Tracker
 
 ## Learning Objectives
 - Create a class from scratch with attributes and methods
