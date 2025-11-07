@@ -6,7 +6,7 @@
 - Practice using `__init__` constructor and `self` keyword
 
 ## Overview
-Build a progress tracker for **CIS students at Allegheny College**! Create a `CISMajor` class to track student name, major, and credits completed.ajor Progress Tracker �
+Build a progress tracker for **CIS students at Allegheny College**! Create a `CISMajor` class to track student name, major, and credits completed.
 
 ## Learning Objectives
 - Create a class from scratch with attributes and methods
@@ -14,7 +14,6 @@ Build a progress tracker for **CIS students at Allegheny College**! Create a `CI
 - Create multiple independent objects (instances) from the same class
 - Practice using `__init__` constructor and `self` keyword
 - Work with instance attributes and methods
-- Demonstrate OOP concept of encapsulation
 
 ## Overview
 You are building a progress tracker for **CIS students at Allegheny College**! Each student is pursuing one of four majors: Computer Science, Software Engineering, Data Science, or Informatics. In this activity, you'll create a `CISMajor` class and build multiple student instances to track their academic progress.
@@ -27,7 +26,7 @@ Create a student progress tracker that can:
 - Report academic status
 - Calculate credits remaining until graduation
 
-## Required Methods
+## Technical Requirements
 
 ### `CISMajor` Class
 
