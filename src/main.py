@@ -34,8 +34,8 @@ class CISMajor:
             int: New total credits after completing course
         """
         # TODO: Add credits to self.credits
-        # TODO: Print confirmation message like:
-        #       "✅ Maria Garcia completed CMPSC 100 (+4 credits, total: 4)"
+        # TODO: Print a message showing the student's name, course completed,
+        #       credits earned, and new total (use self.name, course_name, etc.)
         # TODO: Return new total credits
         pass
     
@@ -46,8 +46,8 @@ class CISMajor:
         Returns:
             str: Formatted status string with name, major, and credits
         """
-        # TODO: Return formatted string like:
-        # "🎓 Maria Garcia | Major: Computer Science | Credits: 8"
+        # TODO: Return a formatted string showing self.name, self.major, 
+        #       and self.credits (use f-string with variables)
         pass
     
     def credits_to_graduation(self):
@@ -66,23 +66,23 @@ class CISMajor:
 # ============================================
 
 if __name__ == "__main__":
-    print("� === CIS MAJOR PROGRESS TRACKER === �\n")
+    print(" === CIS MAJOR PROGRESS TRACKER === \n")
     
-    # TODO: Create at least 3 student instances with different majors
+    # TODO: Create at least 3 student instances with different majors, e.g.
     # maria = CISMajor("Maria Garcia", "Computer Science")
     # jamal = CISMajor("Jamal Washington", "Software Engineering")
     # priya = CISMajor("Priya Patel", "Data Science")
     
-    # TODO: Display initial status
+    # TODO: Display initial status, e.g.,
     # print(maria.get_status())
     # print(jamal.get_status())
     
-    # TODO: Complete some courses
+    # TODO: Complete some courses, e.g.,
     # maria.complete_course("CMPSC 100", 4)
     # maria.complete_course("CMPSC 101", 4)
     # jamal.complete_course("CMPSC 100", 4)
     
-    # TODO: Check graduation progress
+    # TODO: Check graduation progress, e.g.,
     # print(f"{maria.name} needs {maria.credits_to_graduation()} more credits")
     # print(f"{jamal.name} needs {jamal.credits_to_graduation()} more credits")
     
